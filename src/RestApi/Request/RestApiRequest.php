@@ -120,7 +120,7 @@ class RestApiRequest
         $this->setRequestOptions($action, 'POST');
         try {
             $request = $this->client->post($this->url, [
-                'form_params' => $formData,
+                'json' => $formData,
                 'headers' => $this->getAuthorisationHeader(),
             ], array());
         } catch (RequestException $e) {
