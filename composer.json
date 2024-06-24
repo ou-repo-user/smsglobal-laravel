@@ -58,4 +58,5 @@
 		"mockery/mockery": "^1.4@dev",
 		"orchestra/testbench": "^6.0@dev"
 	}
+    ]
 }
